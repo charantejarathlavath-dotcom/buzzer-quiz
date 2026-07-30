@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0e1a;
+  color: #edeff7;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+#root {
+  width: 100%;
+  max-width: 960px;
+}
+
+button {
+  font-family: inherit;
+}
